@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DiceRaider0</string>
+    <string name="dummy">Aa</string>
+    <string name="event_treasure">낡은 상자를 열었습니다!</string>
+    <string name="event_gold">골드 획득</string>
+    <string name="get_key_chance">열쇠 얻을 확률</string>
+</resources>

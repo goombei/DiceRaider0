@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_sudoku_back">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/dialbutton1"
+            android:background="#00ff0000"
+            android:textColor="#613d07"
+            sl:scale_left="5"
+            sl:scale_top="5"
+            sl:scale_textsize="20"
+            sl:scale_width="30"
+            sl:scale_height="30" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/dialbutton2"
+            android:background="#00ff0000"
+            android:textColor="#613d07"
+            sl:scale_left="37"
+            sl:scale_top="5"
+            sl:scale_textsize="20"
+            sl:scale_width="30"
+            sl:scale_height="30" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/dialbutton3"
+            android:background="#00ff0000"
+            android:textColor="#613d07"
+            sl:scale_left="69"
+            sl:scale_top="5"
+            sl:scale_textsize="20"
+            sl:scale_width="30"
+            sl:scale_height="30" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/dialbutton4"
+            android:background="#00ff0000"
+            android:textColor="#613d07"
+            sl:scale_left="5"
+            sl:scale_top="37"
+            sl:scale_textsize="20"
+            sl:scale_width="30"
+            sl:scale_height="30" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/dialbutton5"
+            android:background="#00ff0000"
+            android:textColor="#613d07"
+            sl:scale_left="37"
+            sl:scale_top="37"
+            sl:scale_textsize="20"
+            sl:scale_width="30"
+            sl:scale_height="30" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:id="@+id/dialbutton6"
+            android:background="#00ff0000"
+            android:textColor="#613d07"
+            sl:scale_left="69"
+            sl:scale_top="37"
+            sl:scale_textsize="20"
+            sl:scale_width="30"
+            sl:scale_height="30" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:id="@+id/dialbutton7"
+            android:background="#00ff0000"
+            android:textColor="#613d07"
+            sl:scale_left="5"
+            sl:scale_top="69"
+            sl:scale_textsize="20"
+            sl:scale_width="30"
+            sl:scale_height="30" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:id="@+id/dialbutton8"
+            android:background="#00ff0000"
+            android:textColor="#613d07"
+            sl:scale_left="37"
+            sl:scale_top="69"
+            sl:scale_textsize="20"
+            sl:scale_width="30"
+            sl:scale_height="30" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:id="@+id/dialbutton9"
+            android:background="#00ff0000"
+            android:textColor="#613d07"
+            sl:scale_left="69"
+            sl:scale_top="69"
+            sl:scale_textsize="20"
+            sl:scale_width="30"
+            sl:scale_height="30" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@mipmap/shop_background">
+
+    <ImageView
+        android:id="@+id/closeBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/no" />
+
+    <Switch
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/bgmSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/closeBtn"
+        android:layout_centerHorizontal="true"
+        android:text="게임 배경음 OFF/ON"
+        android:textOff="       "
+        android:textOn="       "
+        android:textSize="40dp"
+        android:thumb="@drawable/setting_switch" />
+
+    <Switch
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/soundSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/bgmSwitch"
+        android:layout_centerHorizontal="true"
+        android:text="게임 효과음 OFF/ON"
+        android:textOff="       "
+        android:textOn="       "
+        android:textSize="40dp"
+        android:thumb="@drawable/setting_switch" />
+
+
+</RelativeLayout>

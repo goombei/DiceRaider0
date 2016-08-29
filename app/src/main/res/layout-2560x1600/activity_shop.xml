@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="user.test.ex.diceraider0.ShopActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/shop_background"></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/statusLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/moneyImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/gold" />
+
+        <TextView
+            android:id="@+id/moneyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/moneyImage"
+            android:textColor="#000000"
+            android:textSize="60dp" />
+
+        <ImageView
+            android:id="@+id/closeBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/no" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/bronzeWhipLayout"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/statusLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/box2">
+
+        <ImageView
+            android:id="@+id/bronzeWhipImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/whip2" />
+
+        <TextView
+            android:id="@+id/bronzeWhipPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/bronzeWhipImage"
+            android:text="가격 : 500"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/bronzeWhipAbilityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bronzeWhipPriceText"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/bronzeWhipImage"
+            android:text="Att 5 up!"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/silverWhipLayout"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/statusLayout"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/box2">
+
+        <ImageView
+            android:id="@+id/silverWhipImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/whip3" />
+
+        <TextView
+            android:id="@+id/silverWhipPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/silverWhipImage"
+            android:text="가격 : 1000"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/silverWhipAbilityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/silverWhipPriceText"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/silverWhipImage"
+            android:text="Att 10 up!"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/goldWhipLayout"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/bronzeWhipLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box2">
+
+        <ImageView
+            android:id="@+id/goldWhipImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/whip4" />
+
+        <TextView
+            android:id="@+id/goldWhipPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/goldWhipImage"
+            android:text="가격 : 2000"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/goldWhipAbilityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/goldWhipPriceText"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/goldWhipImage"
+            android:text="Att 20 up!"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bronzeClothLayout"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bronzeWhipLayout"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box2">
+
+        <ImageView
+            android:id="@+id/bronzeClothImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/armor1" />
+
+        <TextView
+            android:id="@+id/bronzeClothPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/bronzeClothImage"
+            android:text="가격 : 500"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/bronzeClothAbilityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bronzeClothPriceText"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/bronzeClothImage"
+            android:text="HP 500 up!"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/silverClothLayout"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/goldWhipLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box2">
+
+        <ImageView
+            android:id="@+id/silverClothImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/armor2" />
+
+        <TextView
+            android:id="@+id/silverClothPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/silverClothImage"
+            android:text="가격 : 1000"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/silverClothAbilityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/silverClothPriceText"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/silverClothImage"
+            android:text="HP 1000 up!"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/goldClothLayout"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bronzeClothLayout"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box2">
+
+        <ImageView
+            android:id="@+id/goldClothImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/armor3" />
+
+        <TextView
+            android:id="@+id/goldClothPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/goldClothImage"
+            android:text="가격 : 2000"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/goldClothAbilityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/goldClothPriceText"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/goldClothImage"
+            android:text="HP 2000 up!"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/smallPotionLayout"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/silverClothLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box2">
+
+        <ImageView
+            android:id="@+id/smallPotionImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/big_portion" />
+
+        <TextView
+            android:id="@+id/smallPotionPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/smallPotionImage"
+            android:text="가격 : 100"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/smallPotionAbilityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/smallPotionPriceText"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/smallPotionImage"
+            android:text="HP 50% 회복"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bigPotionLayout"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/silverClothLayout"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box2"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/bigPotionImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/big_portion" />
+
+        <TextView
+            android:id="@+id/bigPotionPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/bigPotionImage"
+            android:text="가격 : 100"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/bigPotionAbilityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bigPotionPriceText"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/bigPotionImage"
+            android:text="HP 300 회복"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/inventoryBtn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/inven"/>
+
+
+</RelativeLayout>

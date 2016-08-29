@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#fff8c7">
+
+    <ImageView
+        android:id="@+id/listImage"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/hero01"
+        android:layout_margin="5dp"
+        android:paddingTop="5dp"
+        android:padding="5dp"
+        android:background="#8f652b"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/listImage"
+            android:textColor="#8f652b"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/dice06"/>
+
+
+
+            <!--<TextView-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="주사위 던진 횟수 : "-->
+                <!--android:textColor="#8f652b"-->
+                <!--android:textSize="30dp"/>-->
+
+            <TextView
+                android:id="@+id/scoreText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                android:text="3"
+                android:paddingEnd="10dp"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

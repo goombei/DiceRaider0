@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sjh87.user.test.ex.examplesqlite.MainActivity">
+
+    <TextView
+        android:id="@+id/test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test1"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test2"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test3"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/test4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test4"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/test5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test5"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/test6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test6"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

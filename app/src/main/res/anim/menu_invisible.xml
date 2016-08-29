@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+    <!--애니메이션 완료시, 처음상태로 돌아가지 않고 마지막 상태를 유지-->
+
+    <!--duration 애니메이션 진행시간
+        fromAlpha : 시작 알파값 0.0 - 완전투명
+        toAlpha :    끝 알파값 1.0 - 완전 불투명-->
+    <alpha android:duration="500"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.0"/>
+
+    <!--fromXDelta : 시작 x 좌표 위치
+        fromYDelta : 시작 y 좌표 위치
+        toXDelta : 끝 x 좌표 위치
+        toYDelta : 끝 y 좌표 위치-->
+
+</set>

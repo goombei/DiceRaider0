@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fff0000"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU'RE DEFEATED"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="run again"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:background="#0000"
+        android:id="@+id/btnRestartOK"/>
+
+</LinearLayout>

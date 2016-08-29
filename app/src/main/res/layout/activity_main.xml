@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OldMainActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_wall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal">
+
+        <Button
+            android:id="@+id/rollBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll"
+            android:textColor="#f00" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8000"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/invenBtn"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Inv" />
+
+            <Button
+                android:id="@+id/shopBtn"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Shop" />
+
+            <Button
+                android:id="@+id/mapBtn"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Map" />
+
+
+            <Button
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="setting" />
+
+            <Button
+                android:id="@+id/rankBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="r"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="D1"
+                android:textColor="#f00"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="A1"
+                android:textColor="#0f0"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

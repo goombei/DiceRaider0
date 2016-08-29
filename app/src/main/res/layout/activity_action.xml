@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="user.test.ex.diceraider0.ActionActivity"
+    android:background="#274855"
+    >
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/battle_background_final"
+        sl:scale_base_height="1110"
+        sl:scale_base_width="720">
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#e769ee"
+            sl:scale_height="30"
+            sl:scale_left="148"
+            sl:scale_top="145"
+            sl:scale_width="225" />
+
+
+        <ImageView
+            android:id="@+id/enemy_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_height="270"
+            sl:scale_left="470"
+            sl:scale_top="15"
+            sl:scale_width="230" />
+
+        <ImageView
+            android:id="@+id/enemy_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_border"
+            android:visibility="invisible"
+            sl:scale_height="270"
+            sl:scale_left="470"
+            sl:scale_top="15"
+            sl:scale_width="230" />
+
+        <ImageView
+            android:id="@+id/enemy_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_border"
+            android:visibility="invisible"
+            sl:scale_height="270"
+            sl:scale_left="470"
+            sl:scale_top="15"
+            sl:scale_width="230" />
+
+
+
+
+        <ImageView
+        android:id="@+id/enemyimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:visibility="visible"
+        sl:scale_height="150"
+        sl:scale_left="450"
+        sl:scale_textsize="30"
+        sl:scale_top="360"
+        sl:scale_width="150" />
+
+        <ImageView
+            android:id="@+id/enemydiceimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:visibility="visible"
+            sl:scale_height="150"
+            sl:scale_left="450"
+            sl:scale_textsize="30"
+            sl:scale_top="360"
+            sl:scale_width="150" />
+
+
+        <TextView
+            android:id="@+id/dealtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="vs"
+            android:textColor="#000"
+            sl:scale_height="50"
+            sl:scale_left="260"
+            sl:scale_textsize="40"
+            sl:scale_top="400"
+            sl:scale_width="200" />
+
+        <TextView
+            android:id="@+id/userNowHPtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000"
+            sl:scale_height="80"
+            sl:scale_left="380"
+            sl:scale_textsize="35"
+            sl:scale_top="610"
+            sl:scale_width="150" />
+
+        <TextView
+            android:id="@+id/userHPtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000"
+            sl:scale_height="80"
+            sl:scale_left="530"
+            sl:scale_textsize="35"
+            sl:scale_top="610"
+            sl:scale_width="150" />
+
+
+        <ImageView
+            android:id="@+id/user_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_height="275"
+            sl:scale_left="40"
+            sl:scale_top="540"
+            sl:scale_width="230" />
+
+        <ImageView
+            android:id="@+id/user_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_border"
+            android:visibility="invisible"
+            sl:scale_height="275"
+            sl:scale_left="40"
+            sl:scale_top="540"
+            sl:scale_width="230" />
+
+        <ImageView
+            android:id="@+id/user_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_border"
+            android:visibility="invisible"
+            sl:scale_height="275"
+            sl:scale_left="40"
+            sl:scale_top="540"
+            sl:scale_width="230" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            sl:scale_height="30"
+            sl:scale_left="435"
+            sl:scale_top="575"
+            sl:scale_width="217" />
+
+        <ImageView
+            android:id="@+id/diceimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dice01"
+            sl:scale_height="150"
+            sl:scale_left="120"
+            sl:scale_top="360"
+            sl:scale_width="150" />
+
+        <ImageView
+            android:id="@+id/attackImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/whip1"
+            sl:scale_height="125"
+            sl:scale_left="160"
+            sl:scale_top="925"
+            sl:scale_width="125" />
+
+        <ImageView
+            android:id="@+id/defenceImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/shield"
+            android:visibility="invisible"
+            sl:scale_height="125"
+            sl:scale_left="160"
+            sl:scale_top="925"
+            sl:scale_width="125" />
+
+        <ImageView
+            android:id="@+id/position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/big_portion"
+            android:visibility="invisible"
+            sl:scale_height="100"
+            sl:scale_left="435"
+            sl:scale_top="935"
+            sl:scale_width="100" />
+
+        <ImageView
+            android:id="@+id/emptyposition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/big_portion_reverse"
+            android:visibility="invisible"
+            sl:scale_height="100"
+            sl:scale_left="435"
+            sl:scale_top="935"
+            sl:scale_width="100"
+
+            />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+</FrameLayout>
+

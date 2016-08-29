@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fc9">
+
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no"
+            android:checked="true"
+            android:layout_weight="1"
+            android:id="@+id/r_test_no"/>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="battle"
+            android:layout_weight="1"
+            android:id="@+id/r_test_battle"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="elite"
+            android:layout_weight="1"
+            android:id="@+id/r_test_elite"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="boss"
+            android:layout_weight="1"
+            android:id="@+id/r_test_boss"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="trap"
+            android:layout_weight="1"
+            android:id="@+id/r_test_trap"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rank(s3) or stageUp(s1, s2)"
+            android:layout_weight="1"
+            android:id="@+id/r_test_rank"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gold"
+            android:layout_weight="1"
+            android:id="@+id/r_test_money"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shop"
+            android:layout_weight="1"
+            android:id="@+id/r_test_shop"/>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stage1"
+            android:checked="true"
+            android:layout_weight="1"
+            android:id="@+id/r_stage1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stage2"
+            android:layout_weight="1"
+            android:id="@+id/r_stage2"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stage3"
+            android:layout_weight="1"
+            android:id="@+id/r_stage3"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLines="1"
+        android:maxLength="3"
+        android:hint="@string/get_key_chance"
+        android:id="@+id/et_chance"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="boss_stage1_thrupass"
+        android:id="@+id/cb_boss_stage1"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="cancel"
+            android:id="@+id/btn_cancel"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ok"
+            android:id="@+id/btn_ok"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
